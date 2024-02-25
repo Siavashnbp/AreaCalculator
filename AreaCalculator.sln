@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculator", "AreaCalculator\AreaCalculator.csproj", "{DA97B030-0829-4D71-B7B3-EE5E36730F03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Packages", "00.Packages", "{9EA746BD-0D8A-477C-A44C-DD21489A5C76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Core", "01.Core", "{AE34BC0F-8D3A-440D-9F41-96EE78624879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrustructure", "02.Infrustructure", "{720AC454-109D-44C2-9BA0-EAEF60520C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Presentation", "03.Presentation", "{D1302B63-6EE2-4B64-AC61-A2E0C7F35682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculator.Entities", "AreCalculator.Entities\AreaCalculator.Entities.csproj", "{885967A8-75CA-4094-8327-295CDED59306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculatorUnit.Tests", "AreaCalculatorUnit.Tests\AreaCalculatorUnit.Tests.csproj", "{2D2DA39E-AEA5-47E6-BFB7-6E7F9BCAACBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculator.Services", "AreaCalculator.Services\AreaCalculator.Services.csproj", "{298369C2-D078-4887-93A3-3AECAF5055EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA97B030-0829-4D71-B7B3-EE5E36730F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA97B030-0829-4D71-B7B3-EE5E36730F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA97B030-0829-4D71-B7B3-EE5E36730F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA97B030-0829-4D71-B7B3-EE5E36730F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885967A8-75CA-4094-8327-295CDED59306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885967A8-75CA-4094-8327-295CDED59306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885967A8-75CA-4094-8327-295CDED59306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885967A8-75CA-4094-8327-295CDED59306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2DA39E-AEA5-47E6-BFB7-6E7F9BCAACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2DA39E-AEA5-47E6-BFB7-6E7F9BCAACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2DA39E-AEA5-47E6-BFB7-6E7F9BCAACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2DA39E-AEA5-47E6-BFB7-6E7F9BCAACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298369C2-D078-4887-93A3-3AECAF5055EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298369C2-D078-4887-93A3-3AECAF5055EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298369C2-D078-4887-93A3-3AECAF5055EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298369C2-D078-4887-93A3-3AECAF5055EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA97B030-0829-4D71-B7B3-EE5E36730F03} = {D1302B63-6EE2-4B64-AC61-A2E0C7F35682}
+		{885967A8-75CA-4094-8327-295CDED59306} = {AE34BC0F-8D3A-440D-9F41-96EE78624879}
+		{2D2DA39E-AEA5-47E6-BFB7-6E7F9BCAACBB} = {720AC454-109D-44C2-9BA0-EAEF60520C06}
+		{298369C2-D078-4887-93A3-3AECAF5055EA} = {AE34BC0F-8D3A-440D-9F41-96EE78624879}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0422F1F8-F9D4-441E-A008-41AFD101EE1E}
+	EndGlobalSection
+EndGlobal
